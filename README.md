@@ -3,4 +3,4 @@
 Projecto para desenvolver com um ev3-mindstorms
 
 ## Coloquem aqui a lista de ideias
-Resolver o cubo Rubik
+Resolver o cubo Rubik + 2
