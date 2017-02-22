@@ -2,6 +2,11 @@
 
 Projecto para desenvolver com um ev3-mindstorms
 
+##Links úteis :
+
+* (Documentção)[http://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/index.html]
+* (Setup)[http://www.ev3dev.org/]
+
 ## Coloquem aqui a lista de ideias
 
 * 1º- Drawing Machine - [Youtube1](https://www.youtube.com/watch?v=9pjpQoZoW6E) ; [Youtube2](https://www.youtube.com/watch?v=1Ihjh_F7jn0) ; [PDF](https://www.lego.com/en-us/mindstorms/build-a-robot/banner-print3r) ; [Website](http://www.ev3dev.org/projects/2015/05/06/EV3-Print3rbot/) - 9 votos
