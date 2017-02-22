@@ -4,8 +4,8 @@ Projecto para desenvolver com um ev3-mindstorms
 
 ##Links úteis :
 
-* (Documentção)[http://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/index.html]
-* (Setup)[http://www.ev3dev.org/]
+* [Documentção](http://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/index.html)
+* [Setup](http://www.ev3dev.org/)
 
 ## Coloquem aqui a lista de ideias
 
