@@ -2,5 +2,21 @@
 layout: default
 ---
 
-<h1>blog ev3</h1>
-<p>Isto é apenas um exemplo para ver como funciona</p>
+
+<div class="container ">
+
+
+  <ul class="list-group">
+
+    {% for post in site.posts %}
+
+    <li class="list-group-item">
+      <a href="">{{post.title}}</a>
+      <p>{{post.meta}}</p>
+    </li>
+
+    {% endfor %}
+
+  </ul>
+
+</div>
