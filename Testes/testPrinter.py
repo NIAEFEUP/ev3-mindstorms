@@ -34,20 +34,20 @@ mC.run_to_abs_pos(position_sp=230, speed_sp=800)
 #Nota: Devido a restrições físicas, levantar a caneta duas vezes seguidas baixa-a ligeiramente.
 #O mesmo não acontece quando se baixa a caneta, vá-se lá saber porquê...
 def baixarCaneta():
-"Baixa a caneta"
-    lB.run_to_abs_pos(position_sp=-20, speed_sp=200)
-    lB.wait_while('running')
+	"Baixa a caneta"
+	lB.run_to_abs_pos(position_sp=-20, speed_sp=200)
+	lB.wait_while('running')
 
 def levantarCaneta():
-"Levanta a caneta"
-    lB.run_to_abs_pos(position_sp=80, speed_sp=200)
-    lB.wait_while('running')
+	"Levanta a caneta"
+	lB.run_to_abs_pos(position_sp=80, speed_sp=200)
+	lB.wait_while('running')
 
 #esta está a funcionar bem, os problemas de precisão parecem ser mínimos mas é preciso testar com papel e caneta
 def fazerLinhaVerticalCompleta():
-"Leva a caneta de um lado ao outro da folha"
+	"Leva a caneta de um lado ao outro da folha"
 	if mC.position < 0:
-	    mC.run_to_abs_pos(position_sp=230, speed_sp=900)
+		mC.run_to_abs_pos(position_sp=230, speed_sp=900)
 	else:
-	    mC.run_to_abs_pos(position_sp=-200, speed_sp=900)
+		mC.run_to_abs_pos(position_sp=-200, speed_sp=900)
 
