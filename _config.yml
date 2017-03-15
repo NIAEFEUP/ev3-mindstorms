@@ -1,15 +1,14 @@
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+title: EV3 Mindstorms
+header-img: img/home-background.png
+email: ni@aefeup.pt
 copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "/ev3-mindstorms"
 
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+twitter_username: niaefeup
+github_username:  NIAEFEUP
+facebook_username: niaefeup
+email_username:  ni@aefeup.pt
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
