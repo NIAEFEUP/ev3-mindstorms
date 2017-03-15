@@ -2,13 +2,14 @@
 title: EV3 Mindstorms
 header-img: img/home-background.png
 email: ni@aefeup.pt
-copyright_name: Your/Project/Corporate Name
+copyright_name: NIAEFEUP
 baseurl: "/ev3-mindstorms"
 
 twitter_username: niaefeup
 github_username:  NIAEFEUP
 facebook_username: niaefeup
 email_username:  ni@aefeup.pt
+linkedin_username:  nifeup
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
