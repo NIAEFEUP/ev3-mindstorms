@@ -25,6 +25,10 @@ def go_to_max_position_vertical():
     mC.run_to_abs_pos(position_sp=positionC_max, speed_sp=defaultC_speed)
     #mC.wait_while('running')
 
+def go_to_half_max_position_vertical():
+    mC.run_to_abs_pos(position_sp=positionC_max/2, speed_sp=defaultC_speed)
+    
+
 #lB functions
 def drop_Pen():
     "Baixa a caneta"
@@ -40,8 +44,14 @@ def rise_Pen():
 def roll_forward():
     lA.run_to_rel_pos(position_sp=45, speed_sp=defaultA_speed)
 
+def roll_half_forward():
+    lA.run_to_rel_pos(position_sp=45/2, speed_sp=defaultA_speed)
+
 def roll_backwards():
     lA.run_to_rel_pos(position_sp=-45, speed_sp=defaultA_speed)
+
+def roll_half_backwards():
+    lA.run_to_rel_pos(position_sp=-45/2, speed_sp=defaultA_speed)
 
 def space():
     lA.run_to_rel_pos(position_sp=90, speed_sp=defaultA_speed)
