@@ -42,11 +42,19 @@ def roll_backwards():
 
 def space():
     lA.run_to_rel_pos(position_sp=90, speed_sp=300)
-    
 
-#mC.run_to_abs_pos(position_sp=100, speed_sp=400)
+def print_vertical_up_line():
+    drop_Pen()
+    go_to_max_position_vertical()
+
+def print_vertical_down_line():
+    drop_Pen()
+    reset_position()
+
+
+#mC.run_to_abs_pos(position_sp=-100, speed_sp=400)
 #mC.wait_while('running')
 #reset_position()
-#go_to_max_position_vertical()
 #rise_Pen()
-#drop_Pen()
+#go_to_max_position_vertical()
+print_vertical_up_line()
