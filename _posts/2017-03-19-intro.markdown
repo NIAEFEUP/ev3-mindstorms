@@ -34,5 +34,5 @@ header-img: "img/post-bg-01.jpg"
 
 <p>Embora as ideias sejam muito diferentes decididiu-se fazer uma <B>Máquina de Desenhar</b>. Esta escolha foi ponderada em diferentes aspetos, principalmente pela <b>exequibilidade</b>. Para além deste foi também importante a <b>complexidade</b> de programação, a <b>facilidade</b> de construção e a forma como seria <b>apresentado</b>.</p>
 
-<p>Fica atento ás próximas publicações para saberes mais sobre este projecto.</b>
+<p>Fica atento ás próximas publicações para saberes mais sobre este projecto.</p>
 
