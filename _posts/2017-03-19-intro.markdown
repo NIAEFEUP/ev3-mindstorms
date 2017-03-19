@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "EV3 - Mindstorms"
-subtitle:   "Nunca Deixamos Realmente de Ser Crinças"
+subtitle:   "Nunca Deixamos Realmente de Ser Crianças"
 date:       2017-03-19 12:00:00
 author:     "NIAEFEUP"
 header-img: "img/post-bg-01.jpg"
