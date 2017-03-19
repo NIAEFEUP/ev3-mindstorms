@@ -1,23 +1,28 @@
 ---
 layout:     post
 title:      "EV3 - Mindstorms"
-subtitle:   "Nunca Deixamos Realmente de Ser Crinças."
+subtitle:   "Nunca Deixamos Realmente de Ser Crinças"
 date:       2017-03-19 12:00:00
 author:     "NIAEFEUP"
 header-img: "img/post-bg-01.jpg"
 ---
 
-<p>EV3</p>
+<p>À certa de 1 mês foi feito um recrutamento no <b>NIAFEUP</b> na medida de reforçar a equipa. Com esse recrutramento foi proposto aos novos recrutas desenvolver um robot com o <b>EV3 Mindostorms</b> para depois, caso fosse aprovado, ser apresentado na <a href="https://paginas.fe.up.pt/~escolas/index.php/">Semana Profissão Engenheiro</a> (SPE).</p>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<h2 class="section-heading">EV3 Mindstorms? O que é isso?</h2>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+<p>O EV3 Mindstorm, mais conhecido geralmente por apenas EV3, é um pequeno "computador" desenvolvido pela <b>LEGO</b>, que consigo trás uma quantide enorme de imaginação e possibilidades que qualquer "crinça" adora. Este EV3, para além do cérebro do lego, tem pequenos motores e sensores que se ligam ao anterior para serem controlados e criar pequenos robots.</p>
+
+![My helpful screenshot]({{ site.baseurl }}/img/ev3-illustration.jpg)
+
+<p>O EV3 vem habilitade com um software de algumas limitações, mas a LEGO mais uma vez inteligente nos seus pordutos, possibilita a instalação de novos softwares para o desevolvimento do robot. Por isso nós recorremos a um software disponobilizado pela <a href="http://www.ev3dev.org/">ev3dev</a> que dá muito mais liberdade. Feito isto passamos para a parte...</p>
+
+<h2 class="section-heading">OK e Agora Vamos Fazer o Que?</h2>
 
 <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
 
 <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
 
-<h2 class="section-heading">The Final Frontier</h2>
 
 <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
 
