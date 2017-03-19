@@ -7,44 +7,32 @@ author:     "NIAEFEUP"
 header-img: "img/post-bg-01.jpg"
 ---
 
-<p>À certa de 1 mês foi feito um recrutamento no <b>NIAFEUP</b> na medida de reforçar a equipa. Com esse recrutamento foi proposto aos novos recrutas desenvolver um robot com o <b>EV3 Mindstorms</b> para depois, caso fosse aprovado, ser apresentado na <a href="https://paginas.fe.up.pt/~escolas/index.php/">Semana Profissão Engenheiro</a> (SPE).</p>
+<p>À certa de 1 mês foi feito um recrutamento no <b>NIAFEUP</b> na medida de reforçar a equipa. Com esse recrutamento foi proposto aos novos <b>recrutas</b> desenvolver um robot com o <b>EV3 Mindstorms</b> para futuramente, caso fosse aprovado, ser apresentado na <a href="https://paginas.fe.up.pt/~escolas/index.php/">Semana Profissão Engenheiro</a> (SPE).</p>
 
 <h2 class="section-heading">EV3 Mindstorms? O que é isso?</h2>
 
-<p>O EV3 Mindstorm, mais conhecido geralmente por apenas EV3, é um pequeno "computador" desenvolvido pela <b>LEGO</b>, que consigo trás uma quantide enorme de imaginação e possibilidades que qualquer "criança" adora. Este EV3, para além do cérebro do lego, tem pequenos motores e sensores que se ligam ao anterior para serem controlados e criar pequenos robots.</p>
+<p>O EV3 Mindstorm, mais conhecido por apenas EV3, é um pequeno "computador" desenvolvido pela <b>LEGO</b>, que traz consigo uma quantidade enorme de imaginação e possibilidades que qualquer "criança" adora. Este EV3 para além de ser o cérebro do lego, tem pequenos motores e sensores possiveis de serem controlados para criar pequenos <b>robots</b>.</p>
 
 ![My helpful screenshot]({{ site.baseurl }}/img/ev3-illustration.jpg)
 <span class="caption text-muted">EV3 com os principais componentes como os motores, os sensores e o cérebro em si.</span>
 
-<p>O EV3 vem habilitado com um software de algumas limitações, mas a LEGO mais uma vez inteligente nos seus produtos, possibilita a instalação de novos softwares para o desevolvimento do robot. Por isso foi optado recorrer a um software disponibilizado pela <a href="http://www.ev3dev.org/">ev3dev</a> que dá muito mais liberdade. Feito isto...</p>
+<p>O EV3 vem habilitado com um software com algumas limitações, mas a LEGO mais uma vez inteligente nos seus produtos, possibilita a instalação de novos softwares para o <b>desevolvimento</b> do robot. Por isso, optou-se por recorrer a um software disponibilizado pela <a href="http://www.ev3dev.org/">ev3dev</a> que dá imensa liberdade a nível programacional, podendo desenvolver com as principais linguagens, como <b>C/C++</b>, <b>Python</b> e <b>JavaScript</b>. (No nosso caso foi usado Python) Feito isto...</p>
 
-<h2 class="section-heading">OK e Agora Vamos Fazer o Que?</h2>
+<h2 class="section-heading">OK e Agora Vamos Fazer o Quê?</h2>
 
-<p>Foi falado entre os recrutas quais as melhores opções que teríamos a nosso dispor para desenvolver. Foi então que surgiram ideias como:</p>
+<p>Foi falado entre os recrutas quais as melhores opções que teríamos ao nosso dispor para desenvolver o robot. Foi então que surgiram <b>ideias</b> como:</p>
 
-<p>For those who have seen the Earth from space, and for   the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+<ul>
+  <li>Máquina de Desenhar</li>
+  <li>Resolver o cubo Rubik</li>
+  <li>Jogar Beer Pong</li>
+  <li>Desenhar Labirintos e Resolver</li>
+  <li>Guitarra Életrica</li>
+  <li>Tocar Guitarra</li>
+  <li>Usar Comando PS3 para Controlar</li>
+</ul>
 
+<p>Embora as ideias sejam muito diferentes decididiu-se fazer uma <B>Máquina de Desenhar</b>. Esta escolha foi ponderada em diferentes aspetos, principalmente pela <b>exequibilidade</b>. Para além deste foi também importante a <b>complexidade</b> de programação, a <b>facilidade</b> de construção e a forma como seria <b>apresentado</b>.</p>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<p>Fica atento ás próximas publicações para saberes mais sobre este projecto.</b>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-
-
-![My helpful screenshot]({{ site.baseurl }}/img/post-bg-01.jpg)
-
-
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
