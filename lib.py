@@ -30,12 +30,12 @@ def go_to_half_max_position_vertical():
     
 
 #lB functions
-def drop_Pen():
+def drop_pen():
     "Baixa a caneta"
     lB.run_to_abs_pos(position_sp=positionB_max, speed_sp=defaultB_speed)
     lB.wait_while('running')
 
-def rise_Pen():
+def rise_pen():
     "Levanta a caneta"
     lB.run_to_abs_pos(position_sp=positionB_max, speed_sp=defaultB_speed)
     lB.wait_while('running')
@@ -59,16 +59,20 @@ def space():
 
 #Prints
 def print_vertical_up_line():
-    drop_Pen()
+    drop_pen()
     go_to_max_position_vertical()
+    rise_pen()
+
 
 def print_vertical_down_line():
-    drop_Pen()
+    drop_pen()
     reset_position()
+    rise_pen()
 
 def print_horizontal_line():
-    drop_Pen()
+    drop_pen()
     roll_forward()
+    rise_pen()
 
 def print_diagonal_forward_line():#\
     go_to_max_position_vertical()
@@ -77,7 +81,7 @@ def print_diagonal_forward_line():#\
     lA.wait_while('running')
 
 def print_diagonal_backwards_line():#/
-    #drop_Pen()
+    #drop_pen()
     go_to_max_position_vertical()
     roll_backwards()
     mC.wait_while('running')
@@ -87,15 +91,15 @@ def print_diagonal_backwards_line():#/
 #mC.run_to_abs_pos(position_sp=-100, speed_sp=400)
 #mC.wait_while('running')
 reset_position()
-#rise_Pen()
+#rise_pen()
 #go_to_max_position_vertical()
 #print_vertical_up_line()
 print_diagonal_forward_line()
 reset_position()
 print_diagonal_backwards_line()
 #reset_position()
-#rise_Pen()
+#rise_pen()
 #print_diagonal_backwards_line
 #reset_position()
-#rise_Pen()
+#rise_pen()
 
