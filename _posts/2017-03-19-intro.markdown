@@ -7,7 +7,7 @@ author:     "NIAEFEUP"
 header-img: "img/post-bg-01.jpg"
 ---
 
-<p>Há certa de 1 mês foi feito um recrutamento no <b>NIAFEUP</b> na medida de reforçar a equipa. Com esse recrutamento foi proposto aos novos <b>recrutas</b> desenvolver um robot com o <b>EV3 Mindstorms</b> para futuramente, caso fosse aprovado, ser apresentado na <a href="https://paginas.fe.up.pt/~escolas/index.php/">Semana Profissão Engenheiro</a> (SPE).</p>
+<p>Há certa de 1 mês foi feito um recrutamento no <b>NIAEFEUP</b> na medida de reforçar a equipa. Com esse recrutamento foi proposto aos novos <b>recrutas</b> desenvolver um robot com o <b>EV3 Mindstorms</b> para futuramente, caso fosse aprovado, ser apresentado na <a href="https://paginas.fe.up.pt/~escolas/index.php/">Semana Profissão Engenheiro</a> (SPE).</p>
 
 <h2 class="section-heading">EV3 Mindstorms? O que é isso?</h2>
 
