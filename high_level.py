@@ -1,4 +1,18 @@
 from lib import *
+import sys
+
+'''
+Este código vai ser depois responsavel por imprimir o nome da pessoa
+passado como argumento na linha de  comandos para 1 só nome basta escrever
+[python high_level.py ze] para mais do que um é preciso o seguinte
+[python high_level.py ze tone] quando for para testar no robot descomenta-se
+este codigo
+
+name = sys.argv[1].upper()
+
+for letter in name:
+	draw_letter(letter)
+'''
 
 def draw_letter(letter='A'):
 	print("draw letter A")
