@@ -25,7 +25,7 @@ header-img: "img/post-bg-01.jpg"
 <ul>
   <li>Máquina de Desenhar</li>
   <li>Resolver o cubo Rubik</li>
-  <li>Jogar Beer Pong</li>
+  <li>Lançamento de Bolas</li>
   <li>Desenhar Labirintos e Resolver</li>
   <li>Guitarra Elétrica</li>
   <li>Tocar Guitarra</li>
