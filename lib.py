@@ -27,7 +27,7 @@ def go_to_max_position_vertical():
 
 def go_to_half_max_position_vertical():
     mC.run_to_abs_pos(position_sp=positionC_max/2, speed_sp=defaultC_speed)
-    
+
 
 #lB functions
 def drop_pen():
@@ -55,6 +55,9 @@ def roll_half_backwards():
 
 def space():
     lA.run_to_rel_pos(position_sp=90, speed_sp=defaultA_speed)
+
+def white_space():
+    lA.run_to_rel_pos(position_sp=20, speed_sp=defaultA_speed)
 
 
 #Prints
@@ -102,4 +105,3 @@ print_diagonal_backwards_line()
 #print_diagonal_backwards_line
 #reset_position()
 #rise_pen()
-
