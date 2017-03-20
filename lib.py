@@ -70,13 +70,13 @@ def print_horizontal_line():
     drop_Pen()
     roll_forward()
 
-def print_diagonal_forward_line():
+def print_diagonal_forward_line():#\
     go_to_max_position_vertical()
     roll_forward()
     mC.wait_while('running')
     lA.wait_while('running')
 
-def print_diagonal_backwards_line():
+def print_diagonal_backwards_line():#/
     #drop_Pen()
     go_to_max_position_vertical()
     roll_backwards()
