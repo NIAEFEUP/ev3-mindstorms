@@ -22,7 +22,6 @@ for char in alfabeto:
 
 
 def draw_letter(letter='A'):
-    print("draw letter A")
     drop_pen()
     print_vertical_up_line()
     print_horizontal_line()
