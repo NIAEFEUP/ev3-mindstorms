@@ -21,7 +21,7 @@ for char in alfabeto:
 '''
 
 
-def draw_letter(letter='A'):
+def draw_letter(letter="A"):
     drop_pen()
     print_vertical_up_line()
     print_horizontal_line()
@@ -203,3 +203,68 @@ def draw_letter(letter="O"):
     reset_position()
     roll_forward()
     white_space()
+
+
+
+
+def draw_letter(letter="W"):
+    go_to_max_position_vertical()
+    drop_pen()
+    reset_position()
+    rise_pen()
+    go_to_half_max_position_vertical()
+    roll_half_forward()
+    drop_pen()
+    #print_half_diagonal_backwards()    #/
+    rise_pen()
+    go_to_half_max_position_vertical()
+    roll_half_forward()
+    drop_pen()
+    #print_half_diagonal_forward()      #\
+    go_to_max_position_vertical()
+    rise_pen()
+    reset_position()
+    white_space()
+
+
+def draw_letter(letter="X"):
+    go_to_max_position_vertical()
+    drop_pen()
+    print_diagonal_forward_line()
+    rise_pen()
+    go_to_max_position_vertical()
+    drop_pen()
+    print_diagonal_backwards_line()
+    rise_pen()
+    roll_forward()
+    reset_position()
+    white_space()
+
+
+def draw_letter(letter="Y"):
+    go_to_max_position_vertical()
+    drop_pen()
+    #print_half_diagonal_forward()      #\
+    reset_position()
+    rise_pen()
+    roll_half_forward()
+    go_to_max_position_vertical()
+    drop_pen()
+    #print_half_diagonal_backwards()    #/
+    rise_pen()
+    roll_half_forward()
+    reset_position()
+    white_space()
+
+def draw_letter(letter="Z"):
+    go_to_max_position_vertical()
+    drop_pen()
+    roll_forward()
+    print_diagonal_backwards_line()
+    roll_forward()
+    rise_pen()
+    reset_position()
+    white_space()
+
+
+

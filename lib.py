@@ -11,7 +11,7 @@ defaultC_speed = 400
 defaultB_speed = 200
 defaultA_speed = 300
 
-
+bool pen_raised = true
 
 #mC functions
 def reset_position():
@@ -29,13 +29,19 @@ def go_to_half_max_position_vertical():
 #lB functions
 def drop_pen():
     "Baixa a caneta"
+    if (! pen_raised)
+        return
     lB.run_to_abs_pos(position_sp=positionB_max, speed_sp=defaultB_speed)
     lB.wait_while('running')
+    pen_raised = false
 
 def rise_pen():
     "Levanta a caneta"
+    if (pen_raised)
+        return;
     lB.run_to_abs_pos(position_sp=positionB_max, speed_sp=defaultB_speed)
     lB.wait_while('running')
+    pen_raised = true
 
 #lA functions
 def roll_forward():
@@ -81,7 +87,6 @@ def print_diagonal_forward_line():#\
     lA.wait_while('running')
 
 def print_diagonal_backwards_line():#/
-    #drop_pen()
     go_to_max_position_vertical()
     roll_backwards()
     mC.wait_while('running')
