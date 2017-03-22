@@ -11,8 +11,10 @@ por tambem como se fosse hmtl.
 
 Para adicionarem um video a um post basta introduzir o seguinte :
 
+```
 <video width="100%" height="100%" controls>
   <source src="/../video/teste.mp4" type="video/mp4">
 </video>
+```
 
 Quando estiverem a escrever um post podem (devem) escrever em markdown, nao precisam de por tags de html nem nada, apenas para o video.
