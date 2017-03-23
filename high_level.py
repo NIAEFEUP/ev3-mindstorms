@@ -204,8 +204,7 @@ def draw_letter(letter="O"):
     roll_forward()
     white_space()
 
-
-
+#TODO P-Q-R-S-T-U-V
 
 def draw_letter(letter="W"):
     go_to_max_position_vertical()
@@ -265,6 +264,3 @@ def draw_letter(letter="Z"):
     rise_pen()
     reset_position()
     white_space()
-
-
-
