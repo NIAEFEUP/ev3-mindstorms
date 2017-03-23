@@ -1,4 +1,4 @@
-from  ev3dev.ev3 import *
+from ev3dev.ev3 import *
 
 lA = LargeMotor('outA') #Mexe as rodas, desloca o papel
 lB = LargeMotor('outB') #Sobe ou desce a caneta, para parar de escrever
@@ -11,7 +11,7 @@ defaultC_speed = 400
 defaultB_speed = 200
 defaultA_speed = 300
 
-pen_raised = True
+pen_raised = False
 
 #mC functions
 def reset_position():
