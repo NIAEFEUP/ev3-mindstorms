@@ -38,7 +38,7 @@ def drop_pen():
 def rise_pen():
     "Levanta a caneta"
     if (pen_raised)
-        return;
+        return
     lB.run_to_abs_pos(position_sp=positionB_max, speed_sp=defaultB_speed)
     lB.wait_while('running')
     pen_raised = true
