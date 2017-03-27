@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "EV3 - Mindstorms"
+title:      "EV3 Mindstorms"
 subtitle:   "Nunca Deixamos Realmente de Ser Crianças"
 date:       2017-03-19 12:00:00
 author:     "NIAEFEUP"
@@ -35,4 +35,3 @@ header-img: "img/post-bg-01.jpg"
 <p>Embora as ideias sejam muito diferentes decidiu-se fazer uma <B>Máquina de Desenhar</b>. Esta escolha foi ponderada em diferentes aspetos, principalmente pela <b>exequibilidade</b>. Para além deste foi também importante a <b>complexidade</b> de programação, a <b>facilidade</b> de construção e a forma como seria <b>apresentado</b>.</p>
 
 <p>Fica atento às próximas publicações para saberes mais sobre este projeto.</p>
-
