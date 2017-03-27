@@ -27,7 +27,7 @@ def go_to_max_position_vertical():
 
 def go_to_half_max_position_vertical():
     mC.run_to_abs_pos(position_sp=positionC_max/2, speed_sp=defaultC_speed)
-    
+
 
 #lB functions
 def drop_Pen():
@@ -70,19 +70,46 @@ def print_horizontal_line():
     drop_Pen()
     roll_forward()
 
-def print_diagonal_forward_line():#\
+def print_diagonal_forward_line():
     go_to_max_position_vertical()
     roll_forward()
     mC.wait_while('running')
     lA.wait_while('running')
 
-def print_diagonal_backwards_line():#/
+def print_diagonal_backwards_line():
     #drop_Pen()
     go_to_max_position_vertical()
     roll_backwards()
     mC.wait_while('running')
     lA.wait_while('running')
 
+def print_half_diagonal_left_top_line():
+    rise_Pen()
+    go_to_half_max_position_vertical()
+    drop_Pen()
+    go_to_max_position_vertical()
+    roll_half_backwards()
+
+def print_half_diagonal_right_top_line():
+    rise_Pen()
+    go_to_half_max_position_vertical()
+    drop_Pen()
+    go_to_max_position_vertical()
+    roll_half_forward()
+
+def print_half_diagonal_left_down_line():
+    rise_Pen()
+    go_to_half_max_position_vertical()
+    drop_Pen()
+    mC.run_to_abs_pos(position_sp=positionC_min, speed_sp=defaultC_speed)
+    roll_half_backwards()
+
+def print_half_diagonal_right_down_line():
+    rise_Pen()
+    go_to_half_max_position_vertical()
+    drop_Pen()
+    mC.run_to_abs_pos(position_sp=positionC_min, speed_sp=defaultC_speed)
+    roll_half_forward()
 
 #mC.run_to_abs_pos(position_sp=-100, speed_sp=400)
 #mC.wait_while('running')
@@ -98,4 +125,3 @@ print_diagonal_backwards_line()
 #print_diagonal_backwards_line
 #reset_position()
 #rise_Pen()
-
