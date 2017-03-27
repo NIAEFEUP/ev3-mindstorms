@@ -1,7 +1,4 @@
-from  ev3dev.ev3 import *
-
-from time import sleep
-
+from ev3dev.ev3 import *
 
 lA = LargeMotor('outA') #Mexe as rodas, desloca o papel
 lB = LargeMotor('outB') #Sobe ou desce a caneta, para parar de escrever
@@ -14,7 +11,7 @@ defaultC_speed = 400
 defaultB_speed = 200
 defaultA_speed = 300
 
-
+pen_raised = False
 
 #mC functions
 def reset_position():
@@ -30,15 +27,23 @@ def go_to_half_max_position_vertical():
 
 
 #lB functions
-def drop_Pen():
+def drop_pen():
     "Baixa a caneta"
+    global pen_raised
+    if not pen_raised:
+        return
     lB.run_to_abs_pos(position_sp=positionB_max, speed_sp=defaultB_speed)
     lB.wait_while('running')
+    pen_raised = False
 
-def rise_Pen():
+def rise_pen():
     "Levanta a caneta"
+    global pen_raised
+    if pen_raised:
+        return
     lB.run_to_abs_pos(position_sp=positionB_max, speed_sp=defaultB_speed)
     lB.wait_while('running')
+    pen_raised = True
 
 #lA functions
 def roll_forward():
@@ -56,19 +61,26 @@ def roll_half_backwards():
 def space():
     lA.run_to_rel_pos(position_sp=90, speed_sp=defaultA_speed)
 
+def white_space():
+    lA.run_to_rel_pos(position_sp=20, speed_sp=defaultA_speed)
+
 
 #Prints
 def print_vertical_up_line():
-    drop_Pen()
+    drop_pen()
     go_to_max_position_vertical()
+    rise_pen()
+
 
 def print_vertical_down_line():
-    drop_Pen()
+    drop_pen()
     reset_position()
+    rise_pen()
 
 def print_horizontal_line():
-    drop_Pen()
+    drop_pen()
     roll_forward()
+    rise_pen()
 
 def print_diagonal_forward_line():
     go_to_max_position_vertical()
@@ -76,7 +88,7 @@ def print_diagonal_forward_line():
     mC.wait_while('running')
     lA.wait_while('running')
 
-def print_diagonal_backwards_line():
+def print_diagonal_backwards_line():#/
     #drop_Pen()
     go_to_max_position_vertical()
     roll_backwards()
@@ -114,14 +126,13 @@ def print_half_diagonal_right_down_line():
 #mC.run_to_abs_pos(position_sp=-100, speed_sp=400)
 #mC.wait_while('running')
 reset_position()
-#rise_Pen()
+#rise_pen()
 #go_to_max_position_vertical()
 #print_vertical_up_line()
 print_diagonal_forward_line()
 reset_position()
 print_diagonal_backwards_line()
 #reset_position()
-#rise_Pen()
+#rise_pen()
 #print_diagonal_backwards_line
 #reset_position()
-#rise_Pen()
