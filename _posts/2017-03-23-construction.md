@@ -39,23 +39,23 @@ Rapidamente, após termos estabelecido a divisão das equipas, demos início à 
   <div class="carousel-inner" role="listbox">
 
     <div class="item active">
-      <img src="/img/robot01.jpg" alt="">
+      <img src="{{ site.baseurl }}/img/robot01.jpg" alt="">
     </div>  
 
     <div class="item">
-      <img src="/img/robot02.jpg" alt="">
+      <img src="{{ site.baseurl }}/img/robot02.jpg" alt="">
     </div>
 
     <div class="item">
-      <img src="/img/robot03.jpg" alt="">
+      <img src="{{ site.baseurl }}/img/robot03.jpg" alt="">
     </div>
 
     <div class="item">
-      <img src="/img/robot04.jpg" alt="">
+      <img src="{{ site.baseurl }}/img/robot04.jpg" alt="">
     </div>
 
     <div class="item">
-      <img src="/img/robot05.jpg" alt="">
+      <img src="{{ site.baseurl }}/img/robot05.jpg" alt="">
     </div>
   </div>
 
