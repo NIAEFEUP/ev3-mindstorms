@@ -5,12 +5,19 @@ subtitle:   "Construção do Robô - 'Baby Steps' "
 date:       2017-03-23 12:00:00
 author:     "NIAEFEUP"
 header-img: "img/post-bg-01.jpg"
+images:
+  - image_path: "/img/robot01.jpg"
+  - image_path: "/img/robot02.jpg"
+  - image_path: "/img/robot03.jpg"
+  - image_path: "/img/robot04.jpg"
+  - image_path: "/img/robot05.jpg"
+
 ---
 
 
 Após a aprovação da nossa proposta para desenvolver, com o ev3, um robô que desenhasse sozinho, fizemos uma reunião para dar início a esta aventura.
 
-A construção do robô foi o que nos pareceu prioritário. Na verdade, a razão é bastante óbvia, para programar um robô era necessário ele já estar montado para podermos realizar testes de precisão e termos uma ideia geral daquilo que iria ser necessário. Após alguma pesquisa encontrámos um modelo da LEGO para aquilo que pretendíamos.
+A construção do robô foi o que nos pareceu prioritário. A razão é, para programar um robô era necessário ele já estar montado para podermos realizar testes de precisão e termos uma ideia geral daquilo que iria ser necessário. Após alguma pesquisa encontrámos um modelo da LEGO para aquilo que pretendíamos.
 
 O robô é constituido por 3 motores : levantar e baixar a caneta, mover a caneta na vertical e deslocar o papel na horizontal, com isto e com a limitação de que apenas poderiamos utilizar linhas rectas, decidimos implementar um alfabeto utilizando movimentos simples. A ideia é, na Semana Profissão Engenheiro mostrar aos alunos mais novos o robô a escrever nomes (idealmente, os deles).
 
@@ -32,7 +39,7 @@ Rapidamente, após termos estabelecido a divisão das equipas, demos início à 
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
     <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
   </ol>
 
 
