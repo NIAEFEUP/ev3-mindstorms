@@ -50,4 +50,3 @@ def fazerLinhaVerticalCompleta():
 		mC.run_to_abs_pos(position_sp=230, speed_sp=900)
 	else:
 		mC.run_to_abs_pos(position_sp=-200, speed_sp=900)
-
