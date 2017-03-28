@@ -5,13 +5,6 @@ subtitle:   "Construção do Robô - 'Baby Steps' "
 date:       2017-03-23 12:00:00
 author:     "NIAEFEUP"
 header-img: "img/post-bg-01.jpg"
-images:
-  - image_path: "/img/robot01.jpg"
-  - image_path: "/img/robot02.jpg"
-  - image_path: "/img/robot03.jpg"
-  - image_path: "/img/robot04.jpg"
-  - image_path: "/img/robot05.jpg"
-
 ---
 
 
